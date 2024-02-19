@@ -1,0 +1,85 @@
+.pat-deets{
+    background-color: #f2f2f2;
+    height: fit-content;
+    padding: 50px;
+}
+
+.logo-deets img{
+    width: 200px;
+}
+.logo-deets p{
+    margin-left: 55px;
+    margin-top: -7px;
+    font-size: 15px;
+}
+
+.pat-details{
+    margin-left: 20px;
+}
+
+.heading-pat-deet{
+    font-size: 20px;
+    font-weight: bold;
+    color: #534F4F;
+}
+
+.pat-name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.deets-grid{
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 150px 150px;
+}
+.deets-grid h3{
+    font-size: 15px;
+}
+
+.about{
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.allergies{
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.basic-info{
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.vaccinations{
+    padding: 10px;
+    padding-top: 2px;
+}
+
+.medications{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.med-button{
+    background-color: #199A8E;
+    border: none;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+.emerg-box{
+    display: flex;
+    justify-content: center;
+}
+
+.emerg{
+    
+    width: 60px;
+    margin-top: 70px;
+    border-radius: 50%;
+}

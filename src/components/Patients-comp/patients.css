@@ -1,60 +1,15 @@
-*{
-    font-family: sans-serif;
-}
-
-body{
-    margin: 0;
-    padding: 0;
-}
-
-.logo{
-    height: 60px;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-}
-.logo-img{
-    width: 200px;
-}
-
-.nav{
-    background-color: #E8F3F1;
-    height: 70px;
-}
-
-.container-1{
-    padding-left: 40px;
-    padding-right: 40px;
-    display: flex;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
-}
-
-
-.item{
-    display: flex;
-    flex-direction: column;
-}
-
-.item p{
-    font-size: 12px;
-    font-weight: bold;
-}
-
-.container-2{
+.Patients{
     height: 18rem;
     padding: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 50px;
-    
 }
+
 
 .patient-card{
     background-color: #E8F3F1;
-    width: 20rem;
     padding: 10px;
     border-radius: 10px
 }
@@ -91,3 +46,12 @@ body{
     border-radius: 15px;
     font-size: 12px;
 }
+
+.pills{
+    width: 100px;
+    position: absolute;
+    margin-left: 240px;
+    margin-top: -25px;
+    z-index: -10;
+}
+
